@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of Active Directory within Azure Virtual Machines.<br />
 
 
@@ -21,10 +21,14 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Setup Resources in Azure
+- Ensure Connectivity between the client and Domain Controller
+- Install Active Directory
+- Create an Admin and Normal User Account in Active Directory
+- Join Client to your domain
+- Setup Remote Desktop for non-administrative users on Client
+- Create a bunch of additional users and attempt to log into client with one of the users
+
 
 <h2>Deployment and Configuration Steps</h2>
 
