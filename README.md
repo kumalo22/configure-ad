@@ -56,7 +56,7 @@ Setup Resources in Azure
 <img src="https://i.imgur.com/aR5zJAO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Ensure Connectivity between the client and Domain Controller
+ Ensure Connectivity between the client and Domain Controller
   
 - Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
 - Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
@@ -98,3 +98,27 @@ Create an Admin and Normal User Account in Active Directory
 - Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
 
 
+</p>
+<br />  
+                                                                                                
+<p> 
+                                                                                                
+<img src="https://i.imgur.com/akWQyq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yfgPhnI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nNZWkGD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/imFpL6O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                 
+</p> 
+<p>
+Join Client-1 to your domain (mydomain.com)
+
+                                                                                                 
+- From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+- From the Azure Portal, restart Client-1
+- Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
+- Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers”      container on the root of the domain
+- Create a new OU named “_CLIENTS” and drag Client-1 into there
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
