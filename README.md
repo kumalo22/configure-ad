@@ -67,14 +67,15 @@ Setup Resources in Azure
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QmUpW0S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lbtfJQu.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install Active Directory
   
 - Login to DC-1 and install Active Directory Domain Services
 - Promote as a DC: Setup a new forest as mydomain.com
-- Restart and then log back into DC-1 as user: mydomain.com\labuser
+- Restart and then log back into DC-1 as user: mydomain.com\kumalo22
 
 
 
