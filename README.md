@@ -134,4 +134,42 @@ Setup Remote Desktop for non-administrative users on Client-1
 - Allow “domain users” access to remote desktop
 - You can now log into Client-1 as a normal, non-administrative user now
                                                                                                   
+</p>                                                                                                  
+<br /> 
+                                                                                                  
+<p>                                                                                                  
+                                                                                                  
+<img src="https://i.imgur.com/UPl7ALx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CUAyyWK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/L87ZKbI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a427Au2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/A1Hx9XC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                 
+</p>                                                                                                 
+<p>                                                                                                 
+Create a bunch of additional users and attempt to log into client-1 with one of the users
+
+                                                                                                 
+- Login to DC-1 as jane_admin
+- Open PowerShell_ise as an administrator
+- Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+- Run the script and observe the accounts being created
+- When finished, open ADUC and observe the accounts in the appropriate OU
+- Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
                                                                                                   
