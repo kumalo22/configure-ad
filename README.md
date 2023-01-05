@@ -81,3 +81,20 @@ Install Active Directory
 
 </p>
 <br />
+                                                                                                
+<p>                                                                                                
+<img src="https://i.imgur.com/XUnVHTr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iw41jyT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cy5QrNd.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jj74fvi.png height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                 
+</p> 
+<p>
+Create an Admin and Normal User Account in Active Directory
+                                                                                                 
+- Create an Admin and Normal User Account in AD
+- Create a new OU named “_ADMINS”
+- Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
+- Add jane_admin to the “Domain Admins” Security Group
+- Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+
+
