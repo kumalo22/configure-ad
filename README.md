@@ -118,7 +118,20 @@ Join Client-1 to your domain (mydomain.com)
 - Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers”      container on the root of the domain
 - Create a new OU named “_CLIENTS” and drag Client-1 into there
                                                                                                  
+</p>                                                                                                 
+<br />                                                                                                   
                                                                                                  
-                                                                                                 
-                                                                                                 
-                                                                                                 
+<p>                                                                                                 
+
+ <img src="https://i.imgur.com/PzHr1tn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ </p>
+ <p>
+Setup Remote Desktop for non-administrative users on Client-1
+
+                                                                                                  
+- Log into Client-1 as mydomain.com\jane_admin and open system properties
+- Click “Remote Desktop”
+- Allow “domain users” access to remote desktop
+- You can now log into Client-1 as a normal, non-administrative user now
+                                                                                                  
+                                                                                                  
